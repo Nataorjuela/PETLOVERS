@@ -94,6 +94,7 @@ Como domiciliario quiero consultar los pedidos pendientes para poder decidir que
 Como domiciliario quiero aceptar y llevar pedido a usuario para así cumplir con el pedido que el usuario está solicitando
 
 **Enviar mensajes al cliente**
+
 Como domiciliario quiero enviar mensajes al cliente para poder confirmar algun detalle del envío, como la llegada a la dirección de entrega
 
 #### CLIENTE 
@@ -126,5 +127,4 @@ Como cliente quiero ver la ubicación del domiciliario para poder saber en que m
 
 **Ver mi historial de pedidos**
 
-Como cliente quiero ver mi hisorial de pedidos para poder pedir el mismo producto en alguna tienda en especifico en la cual me gusto realizar la compra o para poder comprar 
-precios del mismo producto en diferentes tiempos.
+Como cliente quiero ver mi hisorial de pedidos para poder pedir el mismo producto en alguna tienda en especifico en la cual me gusto realizar la compra o para poder comprar precios del mismo producto en diferentes tiempos.
