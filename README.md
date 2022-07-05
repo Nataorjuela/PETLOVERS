@@ -65,6 +65,11 @@ la opinion de varias personas al no poder obtener de una manera facil algunos pr
 
 ![image](https://user-images.githubusercontent.com/54339107/173489421-bb5b1325-eadd-4fc4-9bf6-57caaf25ef3f.png)
 
+ :ballot_box_with_check: **Mostrar el chat con el domiciliario** 
+ 
+![image](https://user-images.githubusercontent.com/54339107/177235161-38e45a14-300c-4fda-80c5-003d6d1e2775.png)
+
+
  :ballot_box_with_check: **Mostrar la ubicación del domiciliario en tiempo real.**
 
 ![image](https://user-images.githubusercontent.com/54339107/173489174-71360ae9-5a67-419f-99ea-4b9e446aeefa.png)
@@ -93,6 +98,10 @@ Como domiciliario quiero consultar los pedidos pendientes para poder decidir que
 
 Como domiciliario quiero aceptar y llevar pedido a usuario para así cumplir con el pedido que el usuario está solicitando
 
+**Enviar mensajes al cliente**
+
+Como domiciliario quiero enviar mensajes al cliente para poder confirmar algun detalle del envío, como la llegada a la dirección de entrega
+
 #### CLIENTE 
 
 **Registrarme en la plataforma**
@@ -114,6 +123,8 @@ Como cliente quiero editar mi perfil para poder cambiar mi información personal
 **Realizar pedido**
 
 Como cliente quiero realizar pedido para
+**Enviar mensajes al domiciliario**
+Como cliente quiero enviar mensajes al domiciliario para poder informar sobre algun cambio,o informar sobre algun detalle del pedido realizado
 
 **Ver ubicación del domiciliario**
 
@@ -121,5 +132,4 @@ Como cliente quiero ver la ubicación del domiciliario para poder saber en que m
 
 **Ver mi historial de pedidos**
 
-Como cliente quiero ver mi hisorial de pedidos para poder pedir el mismo producto en alguna tienda en especifico en la cual me gusto realizar la compra o para poder comprar 
-precios del mismo producto en diferentes tiempos.
+Como cliente quiero ver mi hisorial de pedidos para poder pedir el mismo producto en alguna tienda en especifico en la cual me gusto realizar la compra o para poder comprar precios del mismo producto en diferentes tiempos.
