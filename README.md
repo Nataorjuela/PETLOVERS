@@ -93,6 +93,9 @@ Como domiciliario quiero consultar los pedidos pendientes para poder decidir que
 
 Como domiciliario quiero aceptar y llevar pedido a usuario para así cumplir con el pedido que el usuario está solicitando
 
+**Enviar mensajes al cliente**
+Como domiciliario quiero enviar mensajes al cliente para poder confirmar algun detalle del envío, como la llegada a la dirección de entrega
+
 #### CLIENTE 
 
 **Registrarme en la plataforma**
@@ -114,6 +117,8 @@ Como cliente quiero editar mi perfil para poder cambiar mi información personal
 **Realizar pedido**
 
 Como cliente quiero realizar pedido para
+**Enviar mensajes al domiciliario**
+Como cliente quiero enviar mensajes al domiciliario para poder informar sobre algun cambio,o informar sobre algun detalle del pedido realizado
 
 **Ver ubicación del domiciliario**
 
