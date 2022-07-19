@@ -21,7 +21,7 @@ export const Header=()=>{
                 </li>
             </ul>
             <div className="cart">
-                <box-icon name="cart"></box-icon>
+                <box-icon name="cart" size='lg'></box-icon>
                 <span className="item_total">0</span>
             </div>
         </header>
