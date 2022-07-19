@@ -1,0 +1,52 @@
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin: 0;
+  background-color:white;
+}
+
+.scrollarea{
+    position: relative;
+    min-height: 350px;
+    background-color:rgb(228, 185, 129);
+    top:-300px;
+  }
+  
+  .lh-tight{
+    background-color:lightblue;
+    width: 1100px;
+    height:80px;
+  }
+  
+  
+  img {
+    max-width:100%;
+    max-height:100%;
+  }
+  
+  #logo{
+    position: relative;
+    height:300px;
+    width: 300px;
+    left: 400px;
+  }
+  .fw-semibold{
+    position:relative;
+    top:-320px;
+    left:140px;
+  }
+  
+  #avatar{
+    position:relative;
+    top:-250px;
+    height:200px;
+    width: 200px;
+  
+  }
+  
+  #message{
+    position:relative;
+    top:-290px;
+  }
