@@ -1,16 +1,16 @@
 import React, {useState} from 'react';
-import Header from '../Login/components/Header/Header';
-import productMonello from '../../imagenes/productMonello.png'
+import HeaderProduc from './HeaderProduct/HeaderProduc.js';
+import productMonello from '../../imagenes/productMonello.png';
+import Cat from './Cat/Cat';
+
 const Home=() => {
 
-    return(
-        <>
-        <h1 className="title">PRODUCTOS</h1>
-        <div className="productos">
-            <Header />
+    return(       
+    <div className="productos">
+        <HeaderProduc />
             <a href="#">
                 <div className="productMonello">
-                    <img src={productMonello} alt=""></img>
+                <img src={productMonello} alt=""></img>
                 </div>
             </a>
             <div className="product_footer">
@@ -22,10 +22,13 @@ const Home=() => {
                 <button className="btn">Añadir al carrito</button>
             </div>
             <div>
-                <a href="#" className="btn">Vista</a>
+                <a href="#" className="btn">Volver</a>
             </div>
-        </div>
-        </>
+            <div className="bottomPago">
+                <button className="btnPago">Compra finalizada</button>
+                <Cat />
+            </div>
+    </div>
     )
 
 };

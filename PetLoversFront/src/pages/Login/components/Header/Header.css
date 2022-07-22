@@ -14,60 +14,7 @@ header{
     padding:20px;
 }
 
-a{
-    color:darkcyan;
-    text-decoration: none;
-    text-transform:uppercase;
-}
 
-a:hover{
-    color:antiquewhite;
-}
-
-li{
-    list-style: none;
-}
-header ul{
-    display:flex;
-    padding:0;
-    margin:0;
-}
-header ul li{
-    padding:0 1rem;
-}
-header ul li a{
-    font-weight:bold;
-    position: relative;
-    left: -150px;
-    top:40px;
-}
-header .cart{
-    position:relative;
-    cursor:pointer;
-}
-header .cart box-icon{
-    width:80px;
-    height:80px;
-   
-    
-}
-header .cart span{
-    position:relative;
-    top:-100px;
-    right:-30px;
-    width:40px;
-    height:40px;
-    border:1px solid red;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:white;
-    padding:0rem;
-    font-size:1.5rem;
-    font-weight:00;
-    background-color:crimson ;
-}
 @media only screen and (max-width:600px){
     header ul{
         display:none;

@@ -4,7 +4,7 @@ import Chat from '../src/pages/Chat/Chat';
 import Login from '../src/pages/Login/Login';
 import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
 import Home from './pages/Home/Home';
-import Header from './pages/Login/components/Header/Header';
+import Header from './pages/Home/HeaderProduct/HeaderProduc';
 import 'boxicons';
 
 function App() {

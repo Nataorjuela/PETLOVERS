@@ -1,20 +1,23 @@
 import React, {useState} from 'react';
-import '../Login/Login.css';
+import '../../pages/Login/Login.css';
 import Title from "./components/Title/Title"
 import Label from "./components/Label/Label";
 import Input from './components/Input/Input';
+import Header from '../Login/components/Header/Header';
+import UserService from '../../service/UserService';
 
 const Login= () => {
 
-    const [ user,setUser ]=useState('');
+    const [cedula,setUser ]=useState('');
     const [password,setPassword]=useState('');
     const [passwordError,setPasswordError]=useState(false);
     const [isLogin,setIsLogin]=useState(false);
     const [hasError,setHasError]=useState(false);
+    const [listUsers,setListUsers]=useState([]);
    
     function handleChange(name,value){
        
-        if(name ==='usuario'){
+        if(name ==='cedula'){
             setUser(value)
         }else {
             if(value.length<6){
@@ -29,9 +32,9 @@ const Login= () => {
 
     function ifMatch(param){
         if(param.user.length>0 && param.password.length >0){
-            if(param.user==='nata'&& param.passwrod === '123456'){
-                const {user,password}=param;
-                let ac ={user,password};
+            if(param.user==='1010247478'&& param.passwrod === '123456'){
+                const {cedula,password}=param;
+                let ac ={cedula,password};
                 let account = JSON.stringify(ac);
                 localStorage.setItem('account',account);
                 setIsLogin(true);
@@ -46,55 +49,62 @@ const Login= () => {
     }
 
     function handleSubmit(){
-        let account={user,password}
-        if(account){
-            console.log('account:',account)
-        }
-        window.location = "/Home";
-    };
 
-    return (
+        let account={cedula,password}
+        UserService.getUsers().then(data=>{
+            setListUsers(data);
+            localStorage.setItem('items4',data[0]);
+        });
+       if(cedula){
+            console.log('usuario registrado')
+            window.location = "/Home";
+        }
+        setHasError(true);   
+    };
+    
+    
    
-                <div className='login-content'>
-                    <Title text='!Bienvenido!'/>
-                    <label className='label-alert'>
-                        Su contraseña o usuarios son incorrectos 
-                        o no existen en nuestra plataforma
-                    </label>
-                    <Label text='Usuario'/>
-                    <Input 
+    return (
+        <div className='login-container'>
+            <Header />
+            <div className='login-content'>
+                <Title text='!Bienvenido!'/>
+                <label className='label-alert'>
+                    Su contraseña o usuarios son incorrectos o no existen en nuestra plataforma
+                </label>
+                <Label text='Usuario'/>
+                <Input 
                     attribute={{
-                            id:'usuario',
-                            name:'usuario',
-                            type:'text',
-                            placeholder:'Ingrese su usuario'
+                        id:'cedula',
+                        name:'cedula',
+                        type:'text',
+                        placeholder:'Ingrese su cedula'
                     }}
                     handleChange={handleChange}
-                    />
-                    <Label text='Contraseña'/>
-                    <Input 
+                />
+                <Label text='Contraseña'/>
+                <Input 
                     attribute={{
-                            id:'constraseña',
-                            name:'contraseña',
-                            type:'password',
-                            placeholder:'Ingrese su constraseña'
+                        id:'constraseña',
+                        name:'contraseña',
+                        type:'password',
+                        placeholder:'Ingrese su constraseña'
                     }}
                     handleChange={handleChange}
                     param={passwordError}
-                    />
-                    { passwordError &&
-                        <label className='label-error'>
-                            Contraseña inválida o incompleta
-                        </label>
-                    }
-
-                    <div className="submit-button-container">
-                        <button onClick={handleSubmit} className='submit-button'>
-                                Ingresar
-                        </button>
-                    </div>       
-                
+                />
+                { passwordError &&
+                    <label className='label-error'>
+                        Contraseña inválida o incompleta
+                    </label>
+                }
+                <div className="submit-button-container">
+                    <button onClick={handleSubmit} className='submit-button'>
+                        Ingresar
+                    </button>
+                </div>       
             </div>
+        </div>
     )
 };
 

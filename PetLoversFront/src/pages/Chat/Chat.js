@@ -1,9 +1,11 @@
 import {useEffect, useState} from "react";
+import React from 'react';
 import Pusher from 'pusher-js';
 import avatar from "../../imagenes/avatar.jpg";
 import logo from "../../imagenes/logo.png";
 import '../Chat/Chat.css';
-import React from 'react';
+
+
 
 function Chat() {
 
