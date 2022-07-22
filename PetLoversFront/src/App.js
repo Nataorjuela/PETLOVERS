@@ -1,28 +1,31 @@
 import React from 'react';
 import './App.css';
-import Chat from '../src/pages/Chat/Chat';
 import Login from '../src/pages/Login/Login';
 import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
 import Home from './pages/Home/Home';
-import Header from './pages/Home/HeaderProduct/HeaderProduc';
 import 'boxicons';
-
+import ChatRoom from './pages/ChatRoom/ChatRoom';
+import CreateUser from '../src/pages/CreateUser/CreateUser';
 function App() {
+    
+   
+
     return(
         <div className="App">
-        <Router>
+        <Router >
             <Switch>
                 <Route path="/" exact> 
                     <Login />
                 </Route>
-                
                 <Route path="/Home">
                     <Home />
                 </Route>
-                <Route path="/Chat">
-                    <Chat />
+                <Route path="/CreateUser">
+                    <CreateUser />
                 </Route>
-                
+                <Route path="/ChatRoom">
+                    <ChatRoom />
+                </Route>
             </Switch>
         </Router>
         </div>

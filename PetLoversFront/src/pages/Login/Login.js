@@ -5,6 +5,7 @@ import Label from "./components/Label/Label";
 import Input from './components/Input/Input';
 import Header from '../Login/components/Header/Header';
 import UserService from '../../service/UserService';
+import Home from '../Home/Home';
 
 const Login= () => {
 
@@ -16,7 +17,6 @@ const Login= () => {
     const [listUsers,setListUsers]=useState([]);
    
     function handleChange(name,value){
-       
         if(name ==='cedula'){
             setUser(value)
         }else {
@@ -25,8 +25,7 @@ const Login= () => {
             }else{
                 setPasswordError(false);
                 setPassword(value)
-            }
-            
+            }   
         }
     };
 
@@ -58,8 +57,13 @@ const Login= () => {
        if(cedula){
             console.log('usuario registrado')
             window.location = "/Home";
-        }
-        setHasError(true);   
+    
+        setHasError(true);  
+
+    };
+    }
+    function handleonClick(){
+        window.location = "/CreateUser";
     };
     
     
@@ -69,9 +73,7 @@ const Login= () => {
             <Header />
             <div className='login-content'>
                 <Title text='!Bienvenido!'/>
-                <label className='label-alert'>
-                    Su contraseña o usuarios son incorrectos o no existen en nuestra plataforma
-                </label>
+            
                 <Label text='Usuario'/>
                 <Input 
                     attribute={{
@@ -102,7 +104,10 @@ const Login= () => {
                     <button onClick={handleSubmit} className='submit-button'>
                         Ingresar
                     </button>
-                </div>       
+                </div> 
+                <div onClick={handleonClick} className="bottomCreate">
+                <button className="btnCreate">Registrarse</button>
+            </div>      
             </div>
         </div>
     )

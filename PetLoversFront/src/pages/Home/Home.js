@@ -1,9 +1,13 @@
 import React, {useState} from 'react';
 import HeaderProduc from './HeaderProduct/HeaderProduc.js';
 import productMonello from '../../imagenes/productMonello.png';
-import Cat from './Cat/Cat';
+import ChatRoom from '../ChatRoom/ChatRoom';
 
 const Home=() => {
+
+    function handleonClick(){
+        window.location = "/ChatRoom";
+    };
 
     return(       
     <div className="productos">
@@ -24,10 +28,10 @@ const Home=() => {
             <div>
                 <a href="#" className="btn">Volver</a>
             </div>
-            <div className="bottomPago">
+            <div onClick={handleonClick} className="bottomPago">
                 <button className="btnPago">Compra finalizada</button>
-                <Cat />
             </div>
+          
     </div>
     )
 

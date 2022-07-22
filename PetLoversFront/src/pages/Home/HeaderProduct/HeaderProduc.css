@@ -9,15 +9,28 @@ header{
     flex-wrap:wrap;
     position:center;
     box-sizing:border-box;
-    background-color:bisque;
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:20px;
 }
 
-a{
-    color:darkcyan;
+.logo{
+
+    position: relative;
+    display: flex;
+    height:100px;
+    width: 200px;
+    left: 10px;
+}
+
+    a{
+    color:rgb(17, 20, 20);
     text-decoration: none;
     text-transform:uppercase;
+
 }
 
 a:hover{
@@ -68,6 +81,8 @@ header .cart span{
     font-weight:00;
     background-color:crimson ;
 }
+
+
 @media only screen and (max-width:600px){
     header ul{
         display:none;

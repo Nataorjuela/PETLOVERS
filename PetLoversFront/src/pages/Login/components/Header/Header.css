@@ -1,7 +1,5 @@
 header{
     width:1200px;
-    min-height: 190px;
-    max-width:1530px;
     overflow:Hidden;
     display:flex;
     justify-content:space-around;
@@ -13,8 +11,13 @@ header{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:20px;
 }
+#logo{
 
-
+position: relative;
+    height:300px;
+    width: 320px;
+    left: 10px;
+}
 @media only screen and (max-width:600px){
     header ul{
         display:none;

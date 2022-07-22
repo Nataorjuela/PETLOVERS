@@ -9,7 +9,7 @@ export const HeaderProduc=()=>{
         <header>
             <a href="#">
                 <div className="logo">
-                    <img src={logo} alt="logo" width="150"/>
+                    <img src={logo}/>
                 </div>
             </a>
             <ul>
