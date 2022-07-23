@@ -13,9 +13,7 @@ export const HeaderProduc=()=>{
                 </div>
             </a>
             <ul>
-                <li>
-                    <a href="#">SALIR</a>
-                </li>
+               
                 <li>
                     <a href="#">VER CARRITO</a>
                 </li>

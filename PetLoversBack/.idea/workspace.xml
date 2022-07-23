@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5f5f312-1637-4276-8fcb-a460c4560548" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/HeaderProduct/HeaderProduc.css" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/HeaderProduct/HeaderProduc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/HeaderProduct/HeaderProduc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/HeaderProduct/HeaderProduc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/Login.css" afterDir="false" />
-    </list>
+    <list default="true" id="e5f5f312-1637-4276-8fcb-a460c4560548" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

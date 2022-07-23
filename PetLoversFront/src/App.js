@@ -26,6 +26,9 @@ function App() {
                 <Route path="/ChatRoom">
                     <ChatRoom />
                 </Route>
+                <Route path="/Login">
+                    <Login/>
+                </Route>
             </Switch>
         </Router>
         </div>

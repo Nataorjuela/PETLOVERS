@@ -3,11 +3,17 @@ import HeaderProduc from './HeaderProduct/HeaderProduc.js';
 import productMonello from '../../imagenes/productMonello.png';
 import ChatRoom from '../ChatRoom/ChatRoom';
 import '../Home/Home.css';
+import Login from '../Login/Login';
 
 const Home=() => {
 
     function handleonClick(){
         window.location = "/ChatRoom";
+    };
+
+    function handleonExit(){
+        window.location="/Login";
+        
     };
 
     return(       
@@ -88,8 +94,8 @@ const Home=() => {
                 <div onClick={handleonClick} className="buttomPago">
                         <button className="btnPago">Compra finalizada</button>
                 </div>
-                <div className="btnVol">
-                    <button className="btnV">Volver</button>
+                <div onClick={handleonExit} className="btnVol">
+                    <button className="btnV">Salir</button>
                 </div>
             </div>
         </div>

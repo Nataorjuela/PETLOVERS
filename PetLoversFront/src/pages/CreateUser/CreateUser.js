@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import Input from '../Login/components/Input/Input';
 import Header from '../Login/components/Header/Header';
+import '../CreateUser/CreateUser.css';
 
 const CreateUser =()=>{
 
