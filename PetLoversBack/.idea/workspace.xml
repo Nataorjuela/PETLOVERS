@@ -5,35 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5f5f312-1637-4276-8fcb-a460c4560548" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petlover-chat/src/main/java/petlovers/app/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petlover-chat/src/main/java/petlovers/app/controllers/ChatRoomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petlover-chat/src/main/java/petlovers/app/models/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petlover-chat/src/main/java/petlovers/app/models/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petlover-chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/petlover-chat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petlover-chat/src/main/java/petlovers/app/controllers/ChatController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Chat/Chat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Chat/Chat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Cat/46864-lovely-cats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Cat/Cat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Cat/Cat.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/HeaderProduct/HeaderProduc.css" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/HeaderProduct/HeaderProduc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/HeaderProduct/HeaderProduc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/HeaderProduct/HeaderProduc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../PetLoversFront/src/pages/Login/components/Header/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

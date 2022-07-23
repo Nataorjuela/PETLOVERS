@@ -27,8 +27,8 @@
     margin-top:30px;
 }
 
-.submitbutton{
-    width:90%;
+.submit-button{
+    width:100%;
     height: 40px;
     border-radius: 25px;
     border: none;
@@ -65,4 +65,29 @@
     box-sizing: border-box;
     border-radius: 5px;
     margin-bottom:10px;
+}
+
+
+.btnCreate{
+    width:100%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: rgb(7,69,71);
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.bottomCreate{
+    display:flex;
+    justify-content:Center;
+    align-items:Center;
+    margin-top:30px;
+    
+}
+.bottomCreate:hover{
+    opacity:0.6;
 }

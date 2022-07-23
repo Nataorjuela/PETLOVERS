@@ -14,10 +14,10 @@ export const HeaderProduc=()=>{
             </a>
             <ul>
                 <li>
-                    <a href="#">INICIO</a>
+                    <a href="#">SALIR</a>
                 </li>
                 <li>
-                    <a href="#">PRODUCTOS</a>
+                    <a href="#">VER CARRITO</a>
                 </li>
             </ul>
             <div className="cart">
